@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+}
+
+.anuncios{
+    display:flex;
+    flex-flow: wrap row;
+    background-color:#BDBDBD;
+    height: 3%;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+.anuncios-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.anuncios-info h4{
+    margin-right: 2px;
+    font-style: normal;
+    font-size: 15px;
+}
+.anuncios p{
+    margin-left: 2px;
+   
+    font-style: normal;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+
+
+
+.header{
+    margin-top: 0px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    background-color:#ffffff;
+    opacity: .4;
+    list-style: none;
+    color:black;
+    height: 15%;
+    align-items: center;
+}
+
+.header:hover{
+    background-color:#9C27B0;
+    transition: 0.5s;
+    color:#ffffff;
+}
+
+li{
+    padding: 1%;
+    font-size: 20px;
+
+}
+
+
+
