@@ -1,11 +1,12 @@
 body{
     margin: 0px;
+    background-color: #BDBDBD;
 }
 
 .anuncios{
     display:flex;
     flex-flow: wrap row;
-    background-color:#BDBDBD;
+    background-color:#E1BEE7;
     height: 3%;
     justify-content: space-evenly;
     flex-direction: column;
@@ -15,6 +16,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .anuncios-info h4{
     margin-right: 2px;
@@ -30,25 +32,44 @@ body{
 }
 
 
-
+.container-header{
+    display: flex;
+    flex-flow: wrap row;
+    background-color: #E1BEE7;
+    opacity: .5;
+   
+    color:#212121;
+      height: 15%;
+    
+}
+.header-login-and-shopping{
+    margin-top: 0px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 0.5%;
+}
+.icon{
+    width: 30px;
+}
 
 .header{
+    align-items: center;
     margin-top: 0px;
     display: flex;
     flex-flow: wrap row;
     justify-content: center;
-    background-color:#ffffff;
-    opacity: .4;
     list-style: none;
-    color:black;
-    height: 15%;
-    align-items: center;
+    width: 90%;
+  
 }
 
-.header:hover{
+.container-header:hover{
     background-color:#9C27B0;
     transition: 0.5s;
     color:#ffffff;
+    opacity: 1;
 }
 
 li{
