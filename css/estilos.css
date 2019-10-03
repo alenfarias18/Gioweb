@@ -6,10 +6,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-flow: wrap row;
 }
 .info-image{
+
     width: 90%;
     height: 90%;
+    margin-top: 20%
 }
 
 .anuncios{
@@ -33,13 +36,13 @@ body{
 .anuncios-info h4{
     margin-right: 2px;
     font-style: normal;
-    font-size: 15px;
+    font-size: 1em;
 }
 .anuncios p{
     margin-left: 2px;
    
     font-style: normal;
-    font-size: 13px;
+    font-size: 1empx;
     color: #ffffff;
 }
 
@@ -50,7 +53,6 @@ body{
     background-color: #E1BEE7;
     opacity: .5;
     color:#212121;
-    height: 15%;
     position: relative;
     top: 29;
     
@@ -95,3 +97,10 @@ li{
    
 
 }
+
+
+.container-ventas{
+    display: flex;
+}
+
+

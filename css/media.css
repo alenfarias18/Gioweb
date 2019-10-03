@@ -1,0 +1,24 @@
+/* Media querys */
+@media screen and (max-width: 1024px){
+    .container-header{
+        height: 15%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container-header{
+        height: 10%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .container-header{
+        height: 7%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .container-header{
+        height: 5%;
+    }
+}
