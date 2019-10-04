@@ -6,10 +6,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-flow: wrap row;
 }
 .info-image{
-
     width: 90%;
     height: 90%;
     margin-top: 20%
@@ -53,6 +51,7 @@ body{
     background-color: #E1BEE7;
     opacity: .5;
     color:#212121;
+    height: 15%;
     position: relative;
     top: 29;
     
@@ -99,8 +98,8 @@ li{
 }
 
 
-.container-ventas{
+.container-nuevo{
     display: flex;
+    flex-flow: wrap row;
+
 }
-
-
