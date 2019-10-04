@@ -101,5 +101,23 @@ li{
 .container-nuevo{
     display: flex;
     flex-flow: wrap row;
+    justify-content: space-evenly;
+  
+   
+   
+}
 
+.new-product{
+    width: 300px;
+    height: 400px;
+ 
+    border-radius: 10px 10px 0px 0px ;
+}
+.nuevo-info{
+    width: 33.3%;
+ 
+}
+.container-info-product{
+
+    margin-top: 0%;
 }
