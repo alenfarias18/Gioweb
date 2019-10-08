@@ -53,3 +53,16 @@
 .nuevo-info:hover{
     transform: scale(1.1);
 }
+
+
+.container-img-colecciones{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#colecciones-img{
+    width: 700px;
+    height: 150px;
+  
+}

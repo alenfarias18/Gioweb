@@ -4,7 +4,7 @@ body{
     font-family: Arial;
 }
 .container-info{
-    margin-top: -13%;
+    margin-top: -20%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,14 +16,13 @@ body{
 }
 
 .anuncios{
-    background-color:#E1BEE7;
+    background-color:#9C27B0;
     height: 3%;
-    justify-content: space-evenly;
-    flex-direction: column;
+    display: block;
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 4;
+    z-index: 5;
 }
 .anuncios-info{
     margin-left: 10px;
@@ -85,24 +84,32 @@ body{
 .container-header:hover{
     background-color:#9C27B0;
     transition: 0.5s;
-    color:#ffffff;
     opacity: 1;
     margin: 5px;
     border-radius: 5px;
    
 }
+.container-header:hover #linkLi{
 
+    color: white;
+ }
+ #linkLi{
+    text-decoration: none;
+    color: #212121;
+ }
 li{
     margin: 10px;
     font-size: 20px;
-   
-
 }
-a{
-    text-decoration: none;
+#linkLi:hover{
+    text-decoration: underl 
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> entrar
 .end-container{
     padding: 10px;
     background-color: #9C27B0;
@@ -120,4 +127,33 @@ a{
 .zoom{
     transition: transform 3s;
 >>>>>>> 4efd1412331c652178d7b91dbdbd1c95535350e5
+}
+
+.container-socialNetwork{
+    background-color: aqua;
+    position: sticky;
+    top: 33;
+    margin-left: 10px;
+    z-index: 4;
+}
+
+.socialNetwork{
+    position: absolute;
+    
+  
+}
+#socialNetwork{
+    width: 30px;
+}
+
+.separation-container{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#separation{
+    width: 60vw;
 }
