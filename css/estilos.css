@@ -3,6 +3,7 @@ body{
     background-color: #ffffff;
 }
 .container-info{
+    margin-top: -13%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,8 +15,6 @@ body{
 }
 
 .anuncios{
-    display:flex;
-    flex-flow: wrap row;                  
     background-color:#E1BEE7;
     height: 3%;
     justify-content: space-evenly;
@@ -23,6 +22,7 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 4;
 }
 .anuncios-info{
     margin-left: 10px;
@@ -35,12 +35,13 @@ body{
     margin-right: 2px;
     font-style: normal;
     font-size: 1em;
+   
 }
 .anuncios p{
-    margin-left: 2px;
-   
+    margin-left: 3px;
+    margin-top: 7px;
     font-style: normal;
-    font-size: 1empx;
+    font-size: 1em;
     color: #ffffff;
 }
 
@@ -96,34 +97,6 @@ li{
    
 
 }
-
-
-.container-nuevo{
-    display: flex;
-    flex-flow: wrap row;
-    justify-content: space-evenly;
-  
-   
-   
-}
-
-.new-product{
-    width: 300px;
-    height: 400px;
- 
-    border-radius: 10px 10px 0px 0px ;
-}
-.nuevo-info{
-    width: 33.3%;
- 
-}
-.container-info-product{
-
-    margin-top: 0%;
-}
-.zoom{
-    transition: transform .5s;
-}
-.zoom:hover{
-    transform: scale(1.1);
+a{
+    text-decoration: none;
 }
