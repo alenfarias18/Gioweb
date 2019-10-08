@@ -16,4 +16,5 @@
     color: white;
     border:solid 1px;
     height: 40px;
+    z-index: 3;
 }

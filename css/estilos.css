@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     background-color: #ffffff;
+    font-family: Arial;
 }
 .container-info{
     margin-top: -13%;
@@ -99,4 +100,17 @@ li{
 }
 a{
     text-decoration: none;
+}
+
+.end-container{
+    padding: 10px;
+    background-color: #9C27B0;
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: end;
+    align-items: center;
+    height: 40vh;
+    color: white;
+    z-index: 3;
+    opacity: 0.8;
 }
