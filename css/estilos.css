@@ -102,6 +102,7 @@ a{
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 .end-container{
     padding: 10px;
     background-color: #9C27B0;
@@ -113,4 +114,10 @@ a{
     color: white;
     z-index: 3;
     opacity: 0.8;
+=======
+    margin-top: 0%;
+}
+.zoom{
+    transition: transform 3s;
+>>>>>>> 4efd1412331c652178d7b91dbdbd1c95535350e5
 }
